@@ -1,0 +1,167 @@
+count      367.000000
+mean      4805.599455
+std       4910.685399
+min          0.000000
+25%       2864.000000
+50%       3786.000000
+75%       5060.000000
+max      72529.000000
+Name: ApplicantIncome
+
+uppermiddleclass    227
+middleclass          79
+upperclass           61
+Name: Income_Categorization
+
+count    367.000000
+mean     136.021798
+std       60.955144
+min       28.000000
+25%      101.000000
+50%      125.000000
+75%      157.500000
+max      550.000000
+Name: LoanAmount
+
+0.0     73
+1.0    294
+Name: Credit_History
+
+No     330
+Yes     37
+Name: Self_Employed
+
+Male      0.80654
+Female    0.19346
+Name: Gender
+
+Yes    0.634877
+No     0.365123
+Name: Married
+
+360.0    317
+180.0     22
+480.0      8
+300.0      7
+240.0      4
+84.0       3
+6.0        1
+120.0      1
+36.0       1
+350.0      1
+12.0       1
+60.0       1
+Name: Loan_Amount_Term
+
+0     203
+2      61
+1      60
+3+     43
+Name: Dependents
+
+                Loan_Status
+Credit_History             
+0.0                     0.0
+1.0                     1.0
+
+         Loan_Status
+Married             
+No          0.776119
+Yes         0.815451
+
+               Loan_Status
+Property_Area             
+Rural             0.792793
+Semiurban         0.758621
+Urban             0.842857
+
+            Loan_Status
+Dependents             
+0              0.807882
+1              0.866667
+2              0.770492
+3+             0.720930
+
+              Loan_Status
+Education                
+Graduate         0.805654
+Not Graduate     0.785714
+
+             Loan_Status          
+Gender            Female      Male
+Education                         
+Graduate        0.732143  0.823789
+Not Graduate    0.933333  0.753623
+
+                       Loan_Status
+Income_Categorization             
+middleclass               0.797468
+upperclass                0.885246
+uppermiddleclass          0.779736
+
+               LoanAmount
+Self_Employed            
+No                  125.0
+Yes                 130.0
+
+Married        No       Yes
+Gender                     
+Female   0.619718  0.380282
+Male     0.304054  0.695946
+
+        Education
+Gender           
+Female   0.788732
+Male     0.766892
+
+             Gender             
+Education  Graduate Not Graduate
+Married                         
+No         0.672897     0.666667
+Yes        0.880682     0.894737
+
+Education      Graduate  Not Graduate
+Self_Employed                        
+No                130.0         120.0
+Yes               137.0         119.0
+
+Credit_History  0.0  1.0
+Loan_Status             
+N               1.0  0.0
+Y               0.0  1.0
+
+Dependents         0         1         2        3+
+Married                                           
+No          0.805970  0.097015  0.044776  0.052239
+Yes         0.407725  0.201717  0.236052  0.154506
+
+Loan_ID                  0
+Gender                   0
+Married                  0
+Dependents               0
+Education                0
+Self_Employed            0
+ApplicantIncome          0
+CoapplicantIncome        0
+Income_Categorization    0
+LoanAmount               0
+Loan_Amount_Term         0
+Credit_History           0
+Property_Area            0
+Loan_Status              0
+
+Loan_ID                   object
+Gender                    object
+Married                   object
+Dependents                object
+Education                 object
+Self_Employed             object
+ApplicantIncome            int64
+CoapplicantIncome          int64
+Income_Categorization     object
+LoanAmount               float64
+Loan_Amount_Term         float64
+Credit_History           float64
+Property_Area             object
+Loan_Status               object
+
