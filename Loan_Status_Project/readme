@@ -2,5 +2,5 @@ This is a complete solution to the loan status prediction problem.
 It first analyzes the training data set. Then it fills up blank values in that data set
 by analyzing patterns in the original data. It uses K-folding cross validation technique with
 5 folds to analyze the generalizability of training data set and generates a predictive model. It also provides
-flexibility in choosing different models among Logistic Regressing, Randomforest classifier, Decision Tree Model etc.
+flexibility in choosing different models among Logistic Regression, Randomforest classifier, Decision Tree Model etc.
 Finally user can test this model against the test dataset to predict Loan Status based on other qualifiers
